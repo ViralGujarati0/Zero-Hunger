@@ -1,0 +1,339 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.karmbhog"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:10:5-79
+13-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:10:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:11:5-67
+14-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:11:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\KRISH\.gradle\caches\transforms-3\dc46dfafdfa9a11b1253ba36e55b2c99\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.karmbhog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\KRISH\.gradle\caches\transforms-3\dc46dfafdfa9a11b1253ba36e55b2c99\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\KRISH\.gradle\caches\transforms-3\dc46dfafdfa9a11b1253ba36e55b2c99\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.karmbhog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\KRISH\.gradle\caches\transforms-3\dc46dfafdfa9a11b1253ba36e55b2c99\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\KRISH\.gradle\caches\transforms-3\dc46dfafdfa9a11b1253ba36e55b2c99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:5:5-95:19
+23        android:allowBackup="true"
+23-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:6:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.9.0] C:\Users\KRISH\.gradle\caches\transforms-3\dc46dfafdfa9a11b1253ba36e55b2c99\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:7:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:8:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:9:9-43
+30        android:label="@string/app_name"
+30-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:10:9-41
+31        android:supportsRtl="true"
+31-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:11:9-35
+32        android:theme="@style/Theme.KarmBhog" >
+32-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:12:9-46
+33        <activity
+33-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:15:9-17:40
+34            android:name="com.example.karmbhog.Register_Hunger"
+34-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:16:13-44
+35            android:exported="false" />
+35-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:17:13-37
+36        <activity
+36-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:18:9-20:40
+37            android:name="com.example.karmbhog.Forgot_password"
+37-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:19:13-44
+38            android:exported="false" />
+38-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:20:13-37
+39        <activity
+39-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:21:9-23:40
+40            android:name="com.example.karmbhog.SignUp"
+40-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:22:13-35
+41            android:exported="false" />
+41-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:23:13-37
+42        <activity
+42-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:24:9-26:40
+43            android:name="com.example.karmbhog.Company_dashboard"
+43-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:25:13-46
+44            android:exported="false" />
+44-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:26:13-37
+45        <activity
+45-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:27:9-29:40
+46            android:name="com.example.karmbhog.Add_kitchens"
+46-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:28:13-41
+47            android:exported="false" />
+47-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:29:13-37
+48        <activity
+48-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:30:9-32:40
+49            android:name="com.example.karmbhog.Company_detail"
+49-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:31:13-43
+50            android:exported="false" />
+50-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:32:13-37
+51        <activity
+51-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:33:9-35:40
+52            android:name="com.example.karmbhog.Display_events"
+52-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:34:13-43
+53            android:exported="false" />
+53-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:35:13-37
+54        <activity
+54-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:36:9-38:40
+55            android:name="com.example.karmbhog.Workers"
+55-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:37:13-36
+56            android:exported="false" />
+56-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:38:13-37
+57        <activity
+57-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:39:9-41:40
+58            android:name="com.example.karmbhog.Work_details"
+58-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:40:13-41
+59            android:exported="false" />
+59-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:41:13-37
+60        <activity
+60-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:42:9-44:40
+61            android:name="com.example.karmbhog.User_dashboard"
+61-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:43:13-43
+62            android:exported="false" />
+62-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:44:13-37
+63        <activity
+63-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:45:9-47:40
+64            android:name="com.example.karmbhog.Req_of_worker"
+64-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:46:13-42
+65            android:exported="false" />
+65-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:47:13-37
+66        <activity
+66-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:48:9-50:40
+67            android:name="com.example.karmbhog.Report"
+67-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:49:13-35
+68            android:exported="false" />
+68-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:50:13-37
+69        <activity
+69-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:51:9-53:40
+70            android:name="com.example.karmbhog.Register_event"
+70-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:52:13-43
+71            android:exported="false" />
+71-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:53:13-37
+72        <activity
+72-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:54:9-56:40
+73            android:name="com.example.karmbhog.Kitchens"
+73-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:55:13-37
+74            android:exported="false" />
+74-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:56:13-37
+75        <activity
+75-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:57:9-59:40
+76            android:name="com.example.karmbhog.Give_feedback"
+76-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:58:13-42
+77            android:exported="false" />
+77-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:59:13-37
+78        <activity
+78-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:60:9-62:40
+79            android:name="com.example.karmbhog.Feedback"
+79-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:61:13-37
+80            android:exported="false" />
+80-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:62:13-37
+81        <activity
+81-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:63:9-65:40
+82            android:name="com.example.karmbhog.Donation"
+82-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:64:13-37
+83            android:exported="false" />
+83-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:65:13-37
+84        <activity
+84-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:66:9-68:40
+85            android:name="com.example.karmbhog.display_req"
+85-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:67:13-40
+86            android:exported="false" />
+86-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:68:13-37
+87        <activity
+87-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:69:9-71:40
+88            android:name="com.example.karmbhog.display_local_kitchen"
+88-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:70:13-50
+89            android:exported="false" />
+89-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:71:13-37
+90        <activity
+90-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:72:9-74:40
+91            android:name="com.example.karmbhog.Display_hungers"
+91-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:73:13-44
+92            android:exported="false" />
+92-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:74:13-37
+93        <activity
+93-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:75:9-77:40
+94            android:name="com.example.karmbhog.Dashboard"
+94-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:76:13-38
+95            android:exported="false" />
+95-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:77:13-37
+96        <activity
+96-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:78:9-80:40
+97            android:name="com.example.karmbhog.CompanySignUp"
+97-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:79:13-42
+98            android:exported="false" />
+98-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:80:13-37
+99        <activity
+99-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:81:9-89:20
+100            android:name="com.example.karmbhog.AskUserRole"
+100-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:82:13-40
+101            android:exported="true" >
+101-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:83:13-36
+102            <intent-filter>
+102-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:85:13-88:29
+103                <action android:name="android.intent.action.MAIN" />
+103-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:86:17-69
+103-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:86:25-66
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:87:17-77
+105-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:87:27-74
+106            </intent-filter>
+107        </activity>
+108        <activity
+108-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:90:9-94:20
+109            android:name="com.example.karmbhog.MainActivity"
+109-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:91:13-41
+110            android:exported="false" >
+110-->D:\Workspaces\android\KarmBhog\app\src\main\AndroidManifest.xml:92:13-37
+111        </activity>
+112
+113        <service
+113-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:14:9-23:19
+114            android:name="com.google.firebase.components.ComponentDiscoveryService"
+114-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:15:13-84
+115            android:directBootAware="true"
+115-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\7550e2af3e8e32d6c7037deca76ce3a9\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+116            android:exported="false" >
+116-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:16:13-37
+117            <meta-data
+117-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:17:13-19:85
+118                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+118-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:18:17-122
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:19:17-82
+120            <meta-data
+120-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:20:13-22:85
+121                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+121-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:21:17-111
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-firestore:24.10.2] C:\Users\KRISH\.gradle\caches\transforms-3\5b93a306db1f9874f1a756f43cb509f5\transformed\firebase-firestore-24.10.2\AndroidManifest.xml:22:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\d86798102e3d5cc485e668d11b79d9a7\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+124                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+124-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\d86798102e3d5cc485e668d11b79d9a7\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\d86798102e3d5cc485e668d11b79d9a7\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\7550e2af3e8e32d6c7037deca76ce3a9\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+127                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+127-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\7550e2af3e8e32d6c7037deca76ce3a9\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\7550e2af3e8e32d6c7037deca76ce3a9\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+129        </service>
+130
+131        <activity
+131-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\KRISH\.gradle\caches\transforms-3\0da9abf133e9d46ef70e39efc9f0c4e9\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+132            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+132-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\KRISH\.gradle\caches\transforms-3\0da9abf133e9d46ef70e39efc9f0c4e9\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+133            android:exported="false"
+133-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\KRISH\.gradle\caches\transforms-3\0da9abf133e9d46ef70e39efc9f0c4e9\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+134            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+134-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\KRISH\.gradle\caches\transforms-3\0da9abf133e9d46ef70e39efc9f0c4e9\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+135
+136        <provider
+136-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\7550e2af3e8e32d6c7037deca76ce3a9\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+137            android:name="com.google.firebase.provider.FirebaseInitProvider"
+137-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\7550e2af3e8e32d6c7037deca76ce3a9\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+138            android:authorities="com.example.karmbhog.firebaseinitprovider"
+138-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\7550e2af3e8e32d6c7037deca76ce3a9\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+139            android:directBootAware="true"
+139-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\7550e2af3e8e32d6c7037deca76ce3a9\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+140            android:exported="false"
+140-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\7550e2af3e8e32d6c7037deca76ce3a9\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+141            android:initOrder="100" />
+141-->[com.google.firebase:firebase-common:20.4.2] C:\Users\KRISH\.gradle\caches\transforms-3\7550e2af3e8e32d6c7037deca76ce3a9\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+142        <provider
+142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KRISH\.gradle\caches\transforms-3\0d36a8591682389626ab3bddf288e3bb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+143            android:name="androidx.startup.InitializationProvider"
+143-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KRISH\.gradle\caches\transforms-3\0d36a8591682389626ab3bddf288e3bb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+144            android:authorities="com.example.karmbhog.androidx-startup"
+144-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KRISH\.gradle\caches\transforms-3\0d36a8591682389626ab3bddf288e3bb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+145            android:exported="false" >
+145-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KRISH\.gradle\caches\transforms-3\0d36a8591682389626ab3bddf288e3bb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+146            <meta-data
+146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KRISH\.gradle\caches\transforms-3\0d36a8591682389626ab3bddf288e3bb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+147                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+147-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KRISH\.gradle\caches\transforms-3\0d36a8591682389626ab3bddf288e3bb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+148                android:value="androidx.startup" />
+148-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KRISH\.gradle\caches\transforms-3\0d36a8591682389626ab3bddf288e3bb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+149            <meta-data
+149-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\KRISH\.gradle\caches\transforms-3\682f24ce1ba5eb18e7d1d7f32d2b5eac\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+150                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+150-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\KRISH\.gradle\caches\transforms-3\682f24ce1ba5eb18e7d1d7f32d2b5eac\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+151                android:value="androidx.startup" />
+151-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\KRISH\.gradle\caches\transforms-3\682f24ce1ba5eb18e7d1d7f32d2b5eac\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+152            <meta-data
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+153                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+154                android:value="androidx.startup" />
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+155        </provider>
+156
+157        <meta-data
+157-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\KRISH\.gradle\caches\transforms-3\84e9cfea83f323ebd0eb50d1e104b20b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+158            android:name="com.google.android.gms.version"
+158-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\KRISH\.gradle\caches\transforms-3\84e9cfea83f323ebd0eb50d1e104b20b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+159            android:value="@integer/google_play_services_version" />
+159-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\KRISH\.gradle\caches\transforms-3\84e9cfea83f323ebd0eb50d1e104b20b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+160
+161        <receiver
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+162            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+163            android:directBootAware="false"
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+164            android:enabled="true"
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+165            android:exported="true"
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+166            android:permission="android.permission.DUMP" >
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+167            <intent-filter>
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+168                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+169            </intent-filter>
+170            <intent-filter>
+170-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+171                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+172            </intent-filter>
+173            <intent-filter>
+173-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+174                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+175            </intent-filter>
+176            <intent-filter>
+176-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+177                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+177-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\KRISH\.gradle\caches\transforms-3\c039229c44bbf76ffd6c1d227c0c17be\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+178            </intent-filter>
+179        </receiver>
+180    </application>
+181
+182</manifest>
