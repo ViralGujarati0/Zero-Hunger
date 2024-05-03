@@ -1,7 +1,0 @@
-com.example.karmbhog.test.app-annotation-experimental-1.3.0-0 C:\Users\KRISH\.gradle\caches\transforms-3\14561a9adb0f58f5e1409736e57f1f8c\transformed\annotation-experimental-1.3.0\res
-com.example.karmbhog.test.app-core-1.5.0-1 C:\Users\KRISH\.gradle\caches\transforms-3\a26efa07f45187760cd0bc1cbc7512d7\transformed\core-1.5.0\res
-com.example.karmbhog.test.app-androidTest-2 D:\Workspaces\android\KarmBhog\app\build\generated\res\resValues\androidTest\debug
-com.example.karmbhog.test.app-androidTest-3 D:\Workspaces\android\KarmBhog\app\build\generated\res\rs\androidTest\debug
-com.example.karmbhog.test.app-mergeDebugAndroidTestResources-4 D:\Workspaces\android\KarmBhog\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.karmbhog.test.app-mergeDebugAndroidTestResources-5 D:\Workspaces\android\KarmBhog\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.karmbhog.test.app-merged_res-6 D:\Workspaces\android\KarmBhog\app\build\intermediates\merged_res\debugAndroidTest
