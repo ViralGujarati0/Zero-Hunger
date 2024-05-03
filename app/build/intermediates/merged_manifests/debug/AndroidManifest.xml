@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.karmbhog"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="33" />
+
+    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission
+        android:name="com.example.karmbhog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.karmbhog.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KarmBhog" >
+        <activity
+            android:name="com.example.karmbhog.Register_Hunger"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Forgot_password"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.SignUp"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Company_dashboard"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Add_kitchens"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Company_detail"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Display_events"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Workers"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Work_details"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.User_dashboard"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Req_of_worker"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Report"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Register_event"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Kitchens"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Give_feedback"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Feedback"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Donation"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.display_req"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.display_local_kitchen"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Display_hungers"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.Dashboard"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.CompanySignUp"
+            android:exported="false" />
+        <activity
+            android:name="com.example.karmbhog.AskUserRole"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.karmbhog.MainActivity"
+            android:exported="false" >
+        </activity>
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.karmbhog.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.karmbhog.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DUMP" >
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
